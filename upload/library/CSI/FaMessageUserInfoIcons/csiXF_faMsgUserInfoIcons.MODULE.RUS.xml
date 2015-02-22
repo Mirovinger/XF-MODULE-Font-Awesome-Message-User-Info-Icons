@@ -25,14 +25,14 @@
   <route_prefixes/>
   <style_properties/>
   <templates>
-    <template title="csiXF_faMsgUserInfoIcons.css" version_id="1" version_string="1.0.0"><![CDATA[.messageUserBlock .extraUserInfo dl.pairsInline {
+    <template title="csiXF_faMsgUserInfoIcons.css" version_id="1" version_string="1.0.0"><![CDATA[div.messageUserBlock .extraUserInfo dl.pairsInline {
   display: inline-block;
   margin-bottom: 5px;
   width: 31.5%;
   text-align: center;
 }
 
-.messageUserBlock .extraUserInfo dl.pairsInline > dt {
+div.messageUserBlock .extraUserInfo dl.pairsInline > dt {
   display: block;
   float: none;
   margin: 0;
@@ -41,7 +41,7 @@
   text-align: center;
 }
 
-.messageUserBlock .extraUserInfo dl.pairsInline > dd {
+div.messageUserBlock .extraUserInfo dl.pairsInline > dd {
   display: block;
   float: none;
   padding: 4px;
@@ -52,7 +52,7 @@
   text-align: center;
 }
 
-.messageUserBlock .extraUserInfo dl.pairsInline span.fa {
+div.messageUserBlock .extraUserInfo dl.pairsInline span.fa {
   font-size: 20px;
   opacity: .6;
 }]]></template>
